@@ -1,0 +1,4 @@
+cawbutler:
+  swagger:
+    enabled: true
+    api-base-package: com.cawbutler.springboot.swagger.demo
