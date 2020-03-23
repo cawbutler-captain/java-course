@@ -1,5 +1,3 @@
-cawbutler:
-  userName: jerry
 eureka:
   client:
     register-with-eureka: true

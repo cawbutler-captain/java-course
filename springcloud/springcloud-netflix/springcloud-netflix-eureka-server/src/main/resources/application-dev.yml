@@ -1,0 +1,21 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  ######## 服务端自我保护配置
+  server:
+    #关闭自我保护
+    enable-self-preservation: false
+    #清理失效节点间隔时间
+    eviction-interval-timer-in-ms: 2000
+#  客户端自我保护配置
+#  instance:
+#    #服务端多长时间（单位秒）没有接收到此客户端请求会将此客户端踢出
+#    lease-expiration-duration-in-seconds: 90
+#    #客户端间隔多长时间（单位秒）给服务端发送心跳请求
+#    lease-renewal-interval-in-seconds: 2
+server:
+  port: 8010
+spring:
+  application:
+    name: eureka-server

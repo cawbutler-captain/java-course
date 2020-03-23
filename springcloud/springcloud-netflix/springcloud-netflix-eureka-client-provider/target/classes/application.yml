@@ -1,0 +1,14 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka
+  instance:
+    #id规则不能重复，否则导致实例无法被正常注册和调用
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${server.port}:${random.int}
+spring:
+  application:
+    name: provider
+server:
+  port: 0

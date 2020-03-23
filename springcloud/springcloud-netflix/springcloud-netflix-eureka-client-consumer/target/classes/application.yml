@@ -1,5 +1,3 @@
-cawbutler:
-  userName: jerry
 eureka:
   client:
     register-with-eureka: true
@@ -8,6 +6,6 @@ eureka:
       defaultZone: http://127.0.0.1:8010/eureka
 spring:
   application:
-    name: config-client
+    name: consumer
 server:
   port: 0

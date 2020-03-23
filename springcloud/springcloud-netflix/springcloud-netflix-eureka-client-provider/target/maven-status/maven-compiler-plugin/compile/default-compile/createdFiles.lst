@@ -1,0 +1,3 @@
+com\cawbutler\springcloud\netflix\eureka\client\configurations\EurekaConfiguration.class
+com\cawbutler\springcloud\netflix\eureka\client\controller\TestController.class
+com\cawbutler\springcloud\netflix\eureka\client\SpringcloudNetflixEurekaClientProviderApplication.class
